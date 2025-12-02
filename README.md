@@ -26,7 +26,7 @@ Step 14:Update margins and display the graph using matplotlib.pyplot<br/>
 
 ## Program:
 ''' 
-
+```
 pip install pybbn
 
 import pandas as pd # for data manipulation
@@ -118,7 +118,7 @@ print("H9am ->",probs(df, child='Humidity9amCat'))
 print("H3pm ->",probs(df, child='Humidity3pmCat', parent1='Humidity9amCat'))
 print("W ->",probs(df, child='WindGustSpeedCat'))
 print("RT ->",probs(df, child='RainTomorrow', parent1='Humidity3pmCat', parent2='WindGustSpeedCat'))
-
+```
 '''
 ## Output:
 <img width="786" height="594" alt="image" src="https://github.com/user-attachments/assets/f80e1218-a5db-4ead-822e-a64695a1cef3" />
